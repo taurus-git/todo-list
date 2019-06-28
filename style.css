@@ -1,0 +1,47 @@
+.holder{
+    width: 200px;
+    min-height: 200px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding: 5px;
+    background-color: #909090;
+}
+.new-task_holder{
+    display: flex;
+    background-color: #ffffff;
+}
+.holder ul{
+    margin: 0;
+    padding: 0;
+}
+.holder li{
+    list-style: none;
+}
+.new-task{
+    width: 90%;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    height: 25px;
+    border-width: 0px;
+}
+.new-task_button{
+    margin: 0;
+    width: 31px;
+    height: auto;
+    border-width: 0px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+.new-task_button:hover{
+    background-color: #4caf50;
+    color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
